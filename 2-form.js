@@ -1,4 +1,4 @@
-import"./assets/styles-BYxOEeQl.js";const n=document.querySelector(".page-form"),r=[`
+import"./assets/styles-BybVkJee.js";const n=document.querySelector(".page-form"),r=[`
 <form class="feedback-form" autocomplete="off">
   <label>
     Email
