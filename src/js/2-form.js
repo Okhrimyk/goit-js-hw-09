@@ -1,6 +1,5 @@
-const form = document.querySelector('.page-form');
+const form = document.querySelector('.feedback-form');
 const marckUpForm = [`
-<form class="feedback-form" autocomplete="off">
   <label>
     Email
     <input type="email" name="email" autofocus />
@@ -9,8 +8,7 @@ const marckUpForm = [`
     Message
     <textarea name="message" rows="8"></textarea>
   </label>
-  <button type="submit">Log in</button>
-</form> `]
+  <button type="submit">Log in</button>`]
     .join("");
 form.innerHTML = marckUpForm;   
 const formEl = document.querySelector('.feedback-form');
